@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel='stylesheet' type='text/css' href='./css/style.css'>
+    <link rel='stylesheet' href='./css/media-query.css'>
+    <link rel='stylesheet' href='./css/all.min.css'>
+</head>
+
+<body>
+<!--Navigation-->
+    <nav class='nav'>
+        <div class='name'>
+            <h2 class='name'>Ramichelle</h2>
+        </div>
+    
+    <input type='checkbox' id='check'>
+    <label for='check' class='bar'>
+        <i class="fas fa-bars"></i>
+    </label>
+
+        <ul class='list'>
+            <li><a href='#Home'>Home</a></li>
+            <li><a href='#About'>About</a></li>
+            <li><a href='#Background'>Background</a></li>
+            <li><a href='#Portfolio'>Portfolio</a></li>
+            <li><a href='#Contact Me'>Contact</a></li>
+        </ul>
+    </nav>
+
+<header>
+
+        <h1>Hi! I'm Ramichelle Maguigad</h1> <br>
+        <h2>Aspiring Web Developer</h2>
+</header>
+
+<br>
+
+<!--Second-->
+<section id='About'>
+    <fieldset class='about'>
+        <legend>About Me</legend>
+        <img src='./images/formal.jpg'  alt='Ramichelle' class='formal'>
+
+    <div class='inside'>
+            <h2>Hello! My name is <span>Ramichelle Maguigad</span>.</h2>
+            <p>Twenty three years of age, from Tuguegarao City, Cagayan.
+                I recently graduated at Cagayan State
+                University-Andrews Campus with the degree Bachelor of Science in
+                Accounting Information System.</p>
+    </div>
+    <div class='side'>
+            <h2>Wonder why I'm here?</h2>
+            <p>I joined this bootcamp because I want to learn and develop
+                my skills with regards to technology. This new normal taught
+                me that there is always something to learn beyond. <br>
+                All you need is hardwork, dedication and passion to 
+                finish what you started.
+            </p>
+    </div>
+    </fieldset>
+</section>
+
+<!--Third-->
+<section id='Background'>
+    <fieldset class='background'>
+        <legend class='back'>Background</legend>
+        <ul id='accordion'>
+            <li>
+                <label for='experience'>Experience <span>&#x3e</span></label>
+                <input type='radio' name='accordion' id='experience' checked>
+                <div class='text'>
+                    <p>
+                        This new normal set-up helped me to be comfortable using laptop.
+                        First in maximizing the use of internet, second with the use of microsoft
+                        office especially excel, and lastly exploring beyond curiosity.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <label for='bootcamp'>Bootcamp<span>&#x3e</span></label>
+                <input type='radio' name='accordion' id='bootcamp'>
+                <div class='text'>
+                    <p>
+                        Because the pandemic, it's difficult to find a job due to lack of trainings 
+                        and experiences. Therefore, this bootcamp is a blessing for me because it 
+                        allows me to learn, to grow, and to be a web developer.
+                        I really hope that I will finish the bootcamp as planned.
+                        <i class="fas fa-hands-praying"></i>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <label for='skills'>Skills<span>&#x3e</span></label>
+                <input type='radio' name='accordion' id='skills'>
+                <div class='text'>
+                    <p>
+                        As of now, I have knowledge on html, css and git. 
+                        <i class="fas fa-face-smile"></i>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </fieldset>
+    </section>
+
+<!--Fourth-->
+<section id='Portfolio'>
+    <fieldset class='about'>
+        <legend>Portfolio</legend>
+
+        <div class='collapse'>
+        <div class="portfolio">
+              <img src='./images/calculator.jpg' alt='Calculator'>
+            </a>
+            <div class='desc'>Calculator</div>
+          </div>
+        </div>
+
+        <div class='lapse'>
+        <div class='portfolio'>
+            <img src='./images/table.jpg' alt='Table'>
+          </a>
+          <div class='desc'>Table</div>
+        </div>
+        </div>
+
+        <div class="portfolio">
+            <img src="./images/form.jpg" alt="Form">
+          </a>
+          <div class='desc'>Form</div>
+        </div>
+
+    </fieldset>
+</section>
+
+<!---Fifth-->
+
+    <section id='Contact'>
+        <form action=''>
+            <div class='contact'>
+                <p><strong>Contact Me</strong></p>
+            </div>
+            <div class='inner'>
+                <div class='items'>
+                    <label for='name'>NAME</label>
+                    <input type='text' id='name'>
+                </div>
+                <div class='items'>
+                    <label for='email'>EMAIL</label>
+                    <input type='text' id='email '>
+                </div>
+            </div>
+            <div class='outer'>
+                <label for='message'>MESSAGE</label>
+                <textarea name='' id='message'></textarea>
+            </div>
+            <div class='pass'>
+                <input type='submit' value='SEND'>
+                <input type='reset' value='RESET'>
+            </div>
+            
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; ramichellemaguigad</p>
+        <div class='links'>
+            <a href='' class= 'fa-brands fa-twitter'></a>
+            <a href='' class= 'fa-brands fa-instagram'></a>
+            <a href='' class= 'fa-brands fa-facebook'></a>
+        </div>
+    </footer>
+        
+</body>
+</html>
